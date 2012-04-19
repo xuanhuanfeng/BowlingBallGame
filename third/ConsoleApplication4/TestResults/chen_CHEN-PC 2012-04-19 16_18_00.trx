@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9766ad88-143c-4998-ac58-8abab57962a0" name="chen@CHEN-PC 2012-04-19 16:18:00" runUser="chen-PC\chen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="b0d18b2b-9539-4bbf-8413-44b91da0c97c">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="chen_CHEN-PC 2012-04-19 16_18_00">
+      <DeploymentItem filename="F:\C#编程\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-19T16:18:00.0984902+08:00" queuing="2012-04-19T16:18:01.7505847+08:00" start="2012-04-19T16:18:01.9575966+08:00" finish="2012-04-19T16:19:01.9290267+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" error="0" failed="6" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ThirdTurn" storage="f:\c#编程\consoleapplication4\bowlingballtest\bin\debug\bowlingballtest.dll" id="c8fc4c22-2b26-d304-bb25-089fd102304c">
+      <Execution id="eab524c4-36f4-42f9-a212-5718df4f1da8" />
+      <TestMethod codeBase="F:/C#编程/ConsoleApplication4/BowlingBallTest/bin/Debug/BowlingBallTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingBallTest.ProgramTest, BowlingBallTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ThirdTurn" />
+    </UnitTest>
+    <UnitTest name="FirstThrow" storage="f:\c#编程\consoleapplication4\bowlingballtest\bin\debug\bowlingballtest.dll" id="1e68ec30-eb15-39f9-dfa8-8c4d958858c8">
+      <Execution id="c1c4d1a3-8fb1-46f2-8b50-9e40d7814639" />
+      <TestMethod codeBase="F:/C#编程/ConsoleApplication4/BowlingBallTest/bin/Debug/BowlingBallTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingBallTest.ProgramTest, BowlingBallTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FirstThrow" />
+    </UnitTest>
+    <UnitTest name="HasAllTurn" storage="f:\c#编程\consoleapplication4\bowlingballtest\bin\debug\bowlingballtest.dll" id="4d40187a-9a36-bec3-f09a-c4a1a36659cb">
+      <Execution id="6d59eb99-d648-4ef7-9686-c7ac83a0be9e" />
+      <TestMethod codeBase="F:/C#编程/ConsoleApplication4/BowlingBallTest/bin/Debug/BowlingBallTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingBallTest.ProgramTest, BowlingBallTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HasAllTurn" />
+    </UnitTest>
+    <UnitTest name="HasSpareTurn" storage="f:\c#编程\consoleapplication4\bowlingballtest\bin\debug\bowlingballtest.dll" id="3152933b-e2c6-f44d-b3bb-7220745265e0">
+      <Execution id="ad7d1ab2-9a41-47bb-afb6-5fbc27d005a6" />
+      <TestMethod codeBase="F:/C#编程/ConsoleApplication4/BowlingBallTest/bin/Debug/BowlingBallTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingBallTest.ProgramTest, BowlingBallTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HasSpareTurn" />
+    </UnitTest>
+    <UnitTest name="SecondThrow" storage="f:\c#编程\consoleapplication4\bowlingballtest\bin\debug\bowlingballtest.dll" id="2eba0e53-0971-a8d6-0dc0-598aba949da4">
+      <Execution id="9aca8fe3-2d75-4f64-a247-285bc5c3f722" />
+      <TestMethod codeBase="F:/C#编程/ConsoleApplication4/BowlingBallTest/bin/Debug/BowlingBallTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingBallTest.ProgramTest, BowlingBallTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SecondThrow" />
+    </UnitTest>
+    <UnitTest name="TheTenthTurn" storage="f:\c#编程\consoleapplication4\bowlingballtest\bin\debug\bowlingballtest.dll" id="d970cdca-679b-5596-3184-942bf871e042">
+      <Execution id="82da0d36-5075-4327-add5-2b4cf4e9a956" />
+      <TestMethod codeBase="F:/C#编程/ConsoleApplication4/BowlingBallTest/bin/Debug/BowlingBallTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingBallTest.ProgramTest, BowlingBallTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TheTenthTurn" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1e68ec30-eb15-39f9-dfa8-8c4d958858c8" executionId="c1c4d1a3-8fb1-46f2-8b50-9e40d7814639" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2eba0e53-0971-a8d6-0dc0-598aba949da4" executionId="9aca8fe3-2d75-4f64-a247-285bc5c3f722" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c8fc4c22-2b26-d304-bb25-089fd102304c" executionId="eab524c4-36f4-42f9-a212-5718df4f1da8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3152933b-e2c6-f44d-b3bb-7220745265e0" executionId="ad7d1ab2-9a41-47bb-afb6-5fbc27d005a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d40187a-9a36-bec3-f09a-c4a1a36659cb" executionId="6d59eb99-d648-4ef7-9686-c7ac83a0be9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d970cdca-679b-5596-3184-942bf871e042" executionId="82da0d36-5075-4327-add5-2b4cf4e9a956" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c1c4d1a3-8fb1-46f2-8b50-9e40d7814639" testId="1e68ec30-eb15-39f9-dfa8-8c4d958858c8" testName="FirstThrow" computerName="CHEN-PC" duration="00:00:28.0955882" startTime="2012-04-19T16:18:02.1076052+08:00" endTime="2012-04-19T16:18:31.0402600+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1c4d1a3-8fb1-46f2-8b50-9e40d7814639">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 BowlingBallTest.ProgramTest.FirstThrow 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 BowlingBall.Frame.InvalidPins(Int32 pins) 位置 F:\C#编程\ConsoleApplication4\ConsoleApplication4\Program.cs:行号 75
+   在 BowlingBall.Frame.Throw(Int32 pins) 位置 F:\C#编程\ConsoleApplication4\ConsoleApplication4\Program.cs:行号 42
+   在 BowlingBall.Frame..ctor(Int32 pins, Game game) 位置 F:\C#编程\ConsoleApplication4\ConsoleApplication4\Program.cs:行号 39
+   在 BowlingBall.Game.Throw(Int32 pins) 位置 F:\C#编程\ConsoleApplication4\ConsoleApplication4\Program.cs:行号 110
+   在 BowlingBallTest.ProgramTest.FirstThrow() 位置 F:\C#编程\ConsoleApplication4\BowlingBallTest\BowlingTest.cs:行号 21
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9aca8fe3-2d75-4f64-a247-285bc5c3f722" testId="2eba0e53-0971-a8d6-0dc0-598aba949da4" testName="SecondThrow" computerName="CHEN-PC" duration="00:00:03.7661676" startTime="2012-04-19T16:18:31.0772621+08:00" endTime="2012-04-19T16:18:34.9244822+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9aca8fe3-2d75-4f64-a247-285bc5c3f722">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 BowlingBallTest.ProgramTest.SecondThrow 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 BowlingBall.Frame.InvalidPins(Int32 pins) 位置 F:\C#编程\ConsoleApplication4\ConsoleApplication4\Program.cs:行号 75
+   在 BowlingBall.Frame.Throw(Int32 pins) 位置 F:\C#编程\ConsoleApplication4\ConsoleApplication4\Program.cs:行号 42
+   在 BowlingBall.Frame..ctor(Int32 pins, Game game) 位置 F:\C#编程\ConsoleApplication4\ConsoleApplication4\Program.cs:行号 39
+   在 BowlingBall.Game.Throw(Int32 pins) 位置 F:\C#编程\ConsoleApplication4\ConsoleApplication4\Program.cs:行号 110
+   在 BowlingBallTest.ProgramTest.SecondThrow() 位置 F:\C#编程\ConsoleApplication4\BowlingBallTest\BowlingTest.cs:行号 28
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="eab524c4-36f4-42f9-a212-5718df4f1da8" testId="c8fc4c22-2b26-d304-bb25-089fd102304c" testName="ThirdTurn" computerName="CHEN-PC" duration="00:00:24.0801068" startTime="2012-04-19T16:18:34.9584841+08:00" endTime="2012-04-19T16:18:59.1178660+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eab524c4-36f4-42f9-a212-5718df4f1da8">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 BowlingBallTest.ProgramTest.ThirdTurn 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 BowlingBall.Frame.InvalidPins(Int32 pins) 位置 F:\C#编程\ConsoleApplication4\ConsoleApplication4\Program.cs:行号 75
+   在 BowlingBall.Frame.Throw(Int32 pins) 位置 F:\C#编程\ConsoleApplication4\ConsoleApplication4\Program.cs:行号 42
+   在 BowlingBall.Frame..ctor(Int32 pins, Game game) 位置 F:\C#编程\ConsoleApplication4\ConsoleApplication4\Program.cs:行号 39
+   在 BowlingBall.Game.Throw(Int32 pins) 位置 F:\C#编程\ConsoleApplication4\ConsoleApplication4\Program.cs:行号 110
+   在 BowlingBallTest.ProgramTest.ThirdTurn() 位置 F:\C#编程\ConsoleApplication4\BowlingBallTest\BowlingTest.cs:行号 36
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ad7d1ab2-9a41-47bb-afb6-5fbc27d005a6" testId="3152933b-e2c6-f44d-b3bb-7220745265e0" testName="HasSpareTurn" computerName="CHEN-PC" duration="00:00:00.7133908" startTime="2012-04-19T16:18:59.1568682+08:00" endTime="2012-04-19T16:18:59.9579140+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad7d1ab2-9a41-47bb-afb6-5fbc27d005a6">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 BowlingBallTest.ProgramTest.HasSpareTurn 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 BowlingBall.Frame.InvalidPins(Int32 pins) 位置 F:\C#编程\ConsoleApplication4\ConsoleApplication4\Program.cs:行号 75
+   在 BowlingBall.Frame.Throw(Int32 pins) 位置 F:\C#编程\ConsoleApplication4\ConsoleApplication4\Program.cs:行号 42
+   在 BowlingBall.Frame..ctor(Int32 pins, Game game) 位置 F:\C#编程\ConsoleApplication4\ConsoleApplication4\Program.cs:行号 39
+   在 BowlingBall.Game.Throw(Int32 pins) 位置 F:\C#编程\ConsoleApplication4\ConsoleApplication4\Program.cs:行号 110
+   在 BowlingBallTest.ProgramTest.HasSpareTurn() 位置 F:\C#编程\ConsoleApplication4\BowlingBallTest\BowlingTest.cs:行号 50
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6d59eb99-d648-4ef7-9686-c7ac83a0be9e" testId="4d40187a-9a36-bec3-f09a-c4a1a36659cb" testName="HasAllTurn" computerName="CHEN-PC" duration="00:00:01.1515872" startTime="2012-04-19T16:18:59.9739149+08:00" endTime="2012-04-19T16:19:01.2129858+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d59eb99-d648-4ef7-9686-c7ac83a0be9e">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 BowlingBallTest.ProgramTest.HasAllTurn 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 BowlingBall.Frame.InvalidPins(Int32 pins) 位置 F:\C#编程\ConsoleApplication4\ConsoleApplication4\Program.cs:行号 75
+   在 BowlingBall.Frame.Throw(Int32 pins) 位置 F:\C#编程\ConsoleApplication4\ConsoleApplication4\Program.cs:行号 42
+   在 BowlingBall.Frame..ctor(Int32 pins, Game game) 位置 F:\C#编程\ConsoleApplication4\ConsoleApplication4\Program.cs:行号 39
+   在 BowlingBall.Game.Throw(Int32 pins) 位置 F:\C#编程\ConsoleApplication4\ConsoleApplication4\Program.cs:行号 110
+   在 BowlingBallTest.ProgramTest.HasAllTurn() 位置 F:\C#编程\ConsoleApplication4\BowlingBallTest\BowlingTest.cs:行号 63
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="82da0d36-5075-4327-add5-2b4cf4e9a956" testId="d970cdca-679b-5596-3184-942bf871e042" testName="TheTenthTurn" computerName="CHEN-PC" duration="00:00:00.5161398" startTime="2012-04-19T16:19:01.2429875+08:00" endTime="2012-04-19T16:19:01.8440219+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="82da0d36-5075-4327-add5-2b4cf4e9a956">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 BowlingBallTest.ProgramTest.TheTenthTurn 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 BowlingBall.Frame.InvalidPins(Int32 pins) 位置 F:\C#编程\ConsoleApplication4\ConsoleApplication4\Program.cs:行号 75
+   在 BowlingBall.Frame.Throw(Int32 pins) 位置 F:\C#编程\ConsoleApplication4\ConsoleApplication4\Program.cs:行号 42
+   在 BowlingBall.Frame..ctor(Int32 pins, Game game) 位置 F:\C#编程\ConsoleApplication4\ConsoleApplication4\Program.cs:行号 39
+   在 BowlingBall.Game.Throw(Int32 pins) 位置 F:\C#编程\ConsoleApplication4\ConsoleApplication4\Program.cs:行号 110
+   在 BowlingBallTest.ProgramTest.TheTenthTurn() 位置 F:\C#编程\ConsoleApplication4\BowlingBallTest\BowlingTest.cs:行号 85
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

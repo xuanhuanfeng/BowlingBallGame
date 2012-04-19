@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="25f6a51b-cf1f-460d-bea9-11b8245b4ccf" name="chen@CHEN-PC 2012-04-19 14:34:42" runUser="chen-PC\chen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="b0d18b2b-9539-4bbf-8413-44b91da0c97c">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="chen_CHEN-PC 2012-04-19 14_34_42">
+      <DeploymentItem filename="F:\C#编程\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-19T14:34:42.1059853+08:00" queuing="2012-04-19T14:34:46.9322614+08:00" start="2012-04-19T14:34:47.9593201+08:00" finish="2012-04-19T14:34:50.3484568+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ThirdTurn" storage="f:\c#编程\consoleapplication4\bowlingballtest\bin\debug\bowlingballtest.dll" id="c8fc4c22-2b26-d304-bb25-089fd102304c">
+      <Execution id="bffd5211-c11f-4001-8a55-8803eed9f3b3" />
+      <TestMethod codeBase="F:/C#编程/ConsoleApplication4/BowlingBallTest/bin/Debug/BowlingBallTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingBallTest.ProgramTest, BowlingBallTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ThirdTurn" />
+    </UnitTest>
+    <UnitTest name="FirstThrow" storage="f:\c#编程\consoleapplication4\bowlingballtest\bin\debug\bowlingballtest.dll" id="1e68ec30-eb15-39f9-dfa8-8c4d958858c8">
+      <Execution id="6aefe4e6-85df-4071-9085-2c9763a9e24d" />
+      <TestMethod codeBase="F:/C#编程/ConsoleApplication4/BowlingBallTest/bin/Debug/BowlingBallTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingBallTest.ProgramTest, BowlingBallTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FirstThrow" />
+    </UnitTest>
+    <UnitTest name="HasAllTurn" storage="f:\c#编程\consoleapplication4\bowlingballtest\bin\debug\bowlingballtest.dll" id="4d40187a-9a36-bec3-f09a-c4a1a36659cb">
+      <Execution id="95710766-234f-4157-9429-292ebce25c1d" />
+      <TestMethod codeBase="F:/C#编程/ConsoleApplication4/BowlingBallTest/bin/Debug/BowlingBallTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingBallTest.ProgramTest, BowlingBallTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HasAllTurn" />
+    </UnitTest>
+    <UnitTest name="HasSpareTurn" storage="f:\c#编程\consoleapplication4\bowlingballtest\bin\debug\bowlingballtest.dll" id="3152933b-e2c6-f44d-b3bb-7220745265e0">
+      <Execution id="bc17ce75-a8ce-4d30-943c-1c917124cde8" />
+      <TestMethod codeBase="F:/C#编程/ConsoleApplication4/BowlingBallTest/bin/Debug/BowlingBallTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingBallTest.ProgramTest, BowlingBallTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HasSpareTurn" />
+    </UnitTest>
+    <UnitTest name="SecondThrow" storage="f:\c#编程\consoleapplication4\bowlingballtest\bin\debug\bowlingballtest.dll" id="2eba0e53-0971-a8d6-0dc0-598aba949da4">
+      <Execution id="79138a0f-ed94-4b88-bcbb-322d46affde2" />
+      <TestMethod codeBase="F:/C#编程/ConsoleApplication4/BowlingBallTest/bin/Debug/BowlingBallTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingBallTest.ProgramTest, BowlingBallTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SecondThrow" />
+    </UnitTest>
+    <UnitTest name="TheTenthTurn" storage="f:\c#编程\consoleapplication4\bowlingballtest\bin\debug\bowlingballtest.dll" id="d970cdca-679b-5596-3184-942bf871e042">
+      <Execution id="45b6d415-d86f-4990-9fcf-de055b8f3603" />
+      <TestMethod codeBase="F:/C#编程/ConsoleApplication4/BowlingBallTest/bin/Debug/BowlingBallTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingBallTest.ProgramTest, BowlingBallTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TheTenthTurn" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1e68ec30-eb15-39f9-dfa8-8c4d958858c8" executionId="6aefe4e6-85df-4071-9085-2c9763a9e24d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2eba0e53-0971-a8d6-0dc0-598aba949da4" executionId="79138a0f-ed94-4b88-bcbb-322d46affde2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c8fc4c22-2b26-d304-bb25-089fd102304c" executionId="bffd5211-c11f-4001-8a55-8803eed9f3b3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3152933b-e2c6-f44d-b3bb-7220745265e0" executionId="bc17ce75-a8ce-4d30-943c-1c917124cde8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d40187a-9a36-bec3-f09a-c4a1a36659cb" executionId="95710766-234f-4157-9429-292ebce25c1d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d970cdca-679b-5596-3184-942bf871e042" executionId="45b6d415-d86f-4990-9fcf-de055b8f3603" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6aefe4e6-85df-4071-9085-2c9763a9e24d" testId="1e68ec30-eb15-39f9-dfa8-8c4d958858c8" testName="FirstThrow" computerName="CHEN-PC" duration="00:00:00.0880640" startTime="2012-04-19T14:34:48.4313471+08:00" endTime="2012-04-19T14:34:49.8834302+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6aefe4e6-85df-4071-9085-2c9763a9e24d">
+    </UnitTestResult>
+    <UnitTestResult executionId="79138a0f-ed94-4b88-bcbb-322d46affde2" testId="2eba0e53-0971-a8d6-0dc0-598aba949da4" testName="SecondThrow" computerName="CHEN-PC" duration="00:00:00.0003294" startTime="2012-04-19T14:34:49.9044314+08:00" endTime="2012-04-19T14:34:49.9254326+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79138a0f-ed94-4b88-bcbb-322d46affde2">
+    </UnitTestResult>
+    <UnitTestResult executionId="bffd5211-c11f-4001-8a55-8803eed9f3b3" testId="c8fc4c22-2b26-d304-bb25-089fd102304c" testName="ThirdTurn" computerName="CHEN-PC" duration="00:00:00.0003543" startTime="2012-04-19T14:34:49.9614347+08:00" endTime="2012-04-19T14:34:49.9764355+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bffd5211-c11f-4001-8a55-8803eed9f3b3">
+    </UnitTestResult>
+    <UnitTestResult executionId="bc17ce75-a8ce-4d30-943c-1c917124cde8" testId="3152933b-e2c6-f44d-b3bb-7220745265e0" testName="HasSpareTurn" computerName="CHEN-PC" duration="00:00:00.0003313" startTime="2012-04-19T14:34:50.0094374+08:00" endTime="2012-04-19T14:34:50.0224381+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc17ce75-a8ce-4d30-943c-1c917124cde8">
+    </UnitTestResult>
+    <UnitTestResult executionId="95710766-234f-4157-9429-292ebce25c1d" testId="4d40187a-9a36-bec3-f09a-c4a1a36659cb" testName="HasAllTurn" computerName="CHEN-PC" duration="00:00:00.0003825" startTime="2012-04-19T14:34:50.0334388+08:00" endTime="2012-04-19T14:34:50.0464395+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95710766-234f-4157-9429-292ebce25c1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="45b6d415-d86f-4990-9fcf-de055b8f3603" testId="d970cdca-679b-5596-3184-942bf871e042" testName="TheTenthTurn" computerName="CHEN-PC" duration="00:00:00.0004607" startTime="2012-04-19T14:34:50.0564401+08:00" endTime="2012-04-19T14:34:50.0704409+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45b6d415-d86f-4990-9fcf-de055b8f3603">
+    </UnitTestResult>
+  </Results>
+</TestRun>
