@@ -1,9 +1,0 @@
-F:\C#编程\ConsoleApplication4\BowlingBallTest\obj\Debug\ResolveAssemblyReference.cache
-F:\C#编程\ConsoleApplication4\BowlingBallTest\bin\Debug\BowlingBallTest.dll
-F:\C#编程\ConsoleApplication4\BowlingBallTest\bin\Debug\BowlingBallTest.pdb
-F:\C#编程\ConsoleApplication4\BowlingBallTest\bin\Debug\ConsoleApplication4.exe
-F:\C#编程\ConsoleApplication4\BowlingBallTest\bin\Debug\ConsoleApplication4.pdb
-F:\C#编程\ConsoleApplication4\BowlingBallTest\bin\Debug\ConsoleApplication4_Accessor.exe
-F:\C#编程\ConsoleApplication4\BowlingBallTest\bin\Debug\ConsoleApplication4_Accessor.pdb
-F:\C#编程\ConsoleApplication4\BowlingBallTest\obj\Debug\BowlingBallTest.dll
-F:\C#编程\ConsoleApplication4\BowlingBallTest\obj\Debug\BowlingBallTest.pdb
